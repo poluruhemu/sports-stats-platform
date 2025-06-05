@@ -15,24 +15,28 @@
 ### 🌟 Key Features
 
 #### 📊 **Real-Time Sports Data**
+
 - **Live scores and updates** across Cricket, Football, Formula 1, MotoGP, and Rally Championship
 - **Comprehensive player statistics** with historical performance tracking
 - **Team analytics** and head-to-head comparisons
 - **Match predictions** powered by machine learning algorithms
 
 #### 🎮 **Interactive Card Game**
+
 - **Sports card battles** using real player statistics
 - **Dynamic card ratings** that update based on current form
 - **Multiplayer tournaments** with real-time matchmaking
 - **Collection and trading** system with rarity mechanics
 
 #### 🏢 **B2B API Services**
+
 - **Enterprise-grade APIs** for sports data monetization
 - **Tiered access levels** (Free, Pro, Enterprise)
 - **Real-time webhooks** for live event notifications
 - **Custom analytics endpoints** for business intelligence
 
 #### 📱 **Multi-Platform Access**
+
 - **Web dashboard** for analytics and administration
 - **Mobile applications** for iOS and Android
 - **Responsive design** for all device types
@@ -41,6 +45,7 @@
 ## 🏗️ Technical Architecture
 
 ### **Microservices Backend**
+
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   API Gateway   │    │  Match Service  │    │Analytics Service│
@@ -59,12 +64,14 @@
 ```
 
 ### **Frontend Applications**
+
 - **Next.js Dashboard** - Server-side rendered analytics interface
-- **React Admin Panel** - Content management and user administration  
+- **React Admin Panel** - Content management and user administration
 - **Flutter Mobile App** - Cross-platform mobile experience
 - **D3.js Visualizations** - Interactive data charts and graphs
 
 ### **Data Infrastructure**
+
 - **PostgreSQL** - Primary database for structured sports data
 - **Redis** - High-performance caching and real-time data storage
 - **Cloud Storage** - Media files and backup storage
@@ -72,29 +79,31 @@
 
 ## 🚀 Technology Stack
 
-| Component | Technology | Purpose |
-|-----------|------------|---------|
-| **API Gateway** | Node.js + Express | Request routing, authentication, rate limiting |
-| **Backend Services** | Node.js + Fastify | High-performance microservices |
-| **Analytics Engine** | Python + FastAPI | Data science and machine learning |
-| **Web Frontend** | Next.js + TypeScript | Server-side rendered dashboard |
-| **Mobile Apps** | Flutter + Dart | Cross-platform mobile applications |
-| **Database** | PostgreSQL 15+ | Relational data storage |
-| **Cache** | Redis 7+ | High-speed data caching |
-| **Deployment** | Docker + Kubernetes | Containerized deployment |
-| **Cloud Platform** | Google Cloud Platform | Scalable cloud infrastructure |
-| **Monitoring** | Prometheus + Grafana | System monitoring and alerting |
+| Component            | Technology            | Purpose                                        |
+| -------------------- | --------------------- | ---------------------------------------------- |
+| **API Gateway**      | Node.js + Express     | Request routing, authentication, rate limiting |
+| **Backend Services** | Node.js + Fastify     | High-performance microservices                 |
+| **Analytics Engine** | Python + FastAPI      | Data science and machine learning              |
+| **Web Frontend**     | Next.js + TypeScript  | Server-side rendered dashboard                 |
+| **Mobile Apps**      | Flutter + Dart        | Cross-platform mobile applications             |
+| **Database**         | PostgreSQL 15+        | Relational data storage                        |
+| **Cache**            | Redis 7+              | High-speed data caching                        |
+| **Deployment**       | Docker + Kubernetes   | Containerized deployment                       |
+| **Cloud Platform**   | Google Cloud Platform | Scalable cloud infrastructure                  |
+| **Monitoring**       | Prometheus + Grafana  | System monitoring and alerting                 |
 
 ## 📈 Market Opportunity
 
 ### **Target Markets**
+
 - **Sports Media Companies** - Real-time data feeds and analytics
 - **Fantasy Sports Platforms** - Player statistics and predictions
-- **Betting Companies** - Odds calculation and match insights  
+- **Betting Companies** - Odds calculation and match insights
 - **Sports Teams** - Performance analysis and scouting data
 - **Individual Enthusiasts** - Card game and personal analytics
 
 ### **Revenue Streams**
+
 1. **API Subscriptions** - Tiered pricing for data access
 2. **Mobile App** - Freemium model with premium features
 3. **Enterprise Licenses** - Custom solutions for large clients
@@ -104,6 +113,7 @@
 ## 🛠️ Quick Start Guide
 
 ### **Prerequisites**
+
 - Node.js 18.0 or higher
 - Python 3.9 or higher
 - PostgreSQL 15 or higher
@@ -155,14 +165,16 @@ kubectl apply -f infrastructure/kubernetes/
 ## 📊 Current Development Status
 
 ### ✅ **Completed Features**
-- [x] Database schema design for cricket, football, and F1
-- [x] API Gateway with authentication and rate limiting
-- [x] Player statistics calculation engine
-- [x] Next.js dashboard with responsive design
-- [x] Docker development environment
-- [x] Basic web scraping infrastructure
+
+- [ ] Database schema design for cricket, football, and F1
+- [ ] API Gateway with authentication and rate limiting
+- [ ] Player statistics calculation engine
+- [ ] Next.js dashboard with responsive design
+- [ ] Docker development environment
+- [ ] Basic web scraping infrastructure
 
 ### 🚧 **In Development**
+
 - [ ] Real-time WebSocket implementation
 - [ ] Machine learning prediction models
 - [ ] Flutter mobile application
@@ -171,6 +183,7 @@ kubectl apply -f infrastructure/kubernetes/
 - [ ] Payment processing integration
 
 ### 📋 **Planned Features**
+
 - [ ] Multi-language support
 - [ ] Advanced tournament systems
 - [ ] Social features and user profiles
@@ -181,24 +194,28 @@ kubectl apply -f infrastructure/kubernetes/
 ## 🎮 Sports Coverage
 
 ### **Cricket** 🏏
+
 - **International matches** (Tests, ODIs, T20Is)
 - **Domestic leagues** (IPL, BBL, CPL, PSL)
 - **Player statistics** (batting, bowling, fielding)
 - **Team rankings** and historical data
 
 ### **Football** ⚽
+
 - **Major leagues** (Premier League, La Liga, Serie A, Bundesliga)
 - **International tournaments** (World Cup, Euro, Copa America)
 - **Player performance** metrics and transfer data
 - **Team tactics** and formation analysis
 
 ### **Formula 1** 🏎️
+
 - **Race results** and qualifying times
 - **Driver and constructor** championships
 - **Lap-by-lap** performance data
 - **Technical regulations** and car specifications
 
 ### **Future Sports**
+
 - **MotoGP** - Motorcycle racing statistics
 - **World Rally Championship** - Rally stage times and results
 - **Tennis** - Grand Slam and ATP/WTA data
@@ -207,6 +224,7 @@ kubectl apply -f infrastructure/kubernetes/
 ## 🔧 API Documentation
 
 ### **Authentication**
+
 ```bash
 # Get API key
 curl -X POST https://api.sportsstats.com/auth/login \
@@ -220,25 +238,27 @@ curl -H "X-API-Key: your-api-key" \
 
 ### **Key Endpoints**
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/players` | GET | List all players with filters |
-| `/api/players/{id}` | GET | Get player details |
-| `/api/players/{id}/stats` | GET | Get player statistics |
-| `/api/matches/live` | GET | Get live match scores |
-| `/api/matches/{id}` | GET | Get match details |
-| `/api/analytics/predictions` | GET | Get match predictions |
-| `/api/teams/{id}` | GET | Get team information |
-| `/websocket/live-scores` | WS | Real-time score updates |
+| Endpoint                     | Method | Description                   |
+| ---------------------------- | ------ | ----------------------------- |
+| `/api/players`               | GET    | List all players with filters |
+| `/api/players/{id}`          | GET    | Get player details            |
+| `/api/players/{id}/stats`    | GET    | Get player statistics         |
+| `/api/matches/live`          | GET    | Get live match scores         |
+| `/api/matches/{id}`          | GET    | Get match details             |
+| `/api/analytics/predictions` | GET    | Get match predictions         |
+| `/api/teams/{id}`            | GET    | Get team information          |
+| `/websocket/live-scores`     | WS     | Real-time score updates       |
 
 ### **Rate Limits**
+
 - **Free Tier**: 1,000 requests/day
-- **Pro Tier**: 100,000 requests/day  
+- **Pro Tier**: 100,000 requests/day
 - **Enterprise**: Custom limits
 
 ## 🧪 Testing
 
 ### **Run Tests**
+
 ```bash
 # Run all tests
 npm test
@@ -246,7 +266,7 @@ npm test
 # Run backend tests
 npm run test:backend
 
-# Run frontend tests  
+# Run frontend tests
 npm run test:frontend
 
 # Run integration tests
@@ -257,6 +277,7 @@ npm run test:performance
 ```
 
 ### **Test Coverage**
+
 - **Backend Services**: 85%+ code coverage
 - **Frontend Components**: 80%+ code coverage
 - **API Integration**: 90%+ endpoint coverage
@@ -265,12 +286,14 @@ npm run test:performance
 ## 📈 Performance Metrics
 
 ### **API Performance**
+
 - **Response time**: < 100ms (95th percentile)
 - **Throughput**: 10,000+ requests/second
 - **Uptime**: 99.9% availability
 - **Data freshness**: < 30 seconds for live events
 
 ### **Scalability**
+
 - **Horizontal scaling**: Auto-scaling based on load
 - **Database optimization**: Read replicas and caching
 - **CDN integration**: Global content delivery
@@ -279,12 +302,14 @@ npm run test:performance
 ## 🔒 Security
 
 ### **Data Protection**
+
 - **Encryption**: TLS 1.3 for data in transit
 - **Authentication**: JWT tokens with refresh mechanism
 - **Authorization**: Role-based access control
 - **Privacy**: GDPR and CCPA compliant
 
 ### **Infrastructure Security**
+
 - **Network security**: VPC and firewall rules
 - **Container security**: Vulnerability scanning
 - **Secrets management**: Encrypted environment variables
@@ -295,6 +320,7 @@ npm run test:performance
 We welcome contributions from the community! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and development process.
 
 ### **Development Workflow**
+
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
@@ -302,6 +328,7 @@ We welcome contributions from the community! Please read our [Contributing Guide
 5. Open a Pull Request
 
 ### **Coding Standards**
+
 - **JavaScript/TypeScript**: ESLint + Prettier
 - **Python**: Black + flake8
 - **Documentation**: Comprehensive inline comments
@@ -310,12 +337,14 @@ We welcome contributions from the community! Please read our [Contributing Guide
 ## 📞 Support & Contact
 
 ### **Community**
+
 - **GitHub Issues**: Bug reports and feature requests
 - **Discord Server**: Community chat and support
 - **Documentation**: Comprehensive guides and tutorials
 - **Blog**: Development updates and technical articles
 
 ### **Business Inquiries**
+
 - **Email**: business@sportsstats.com
 - **Partnership**: partnerships@sportsstats.com
 - **Enterprise Sales**: enterprise@sportsstats.com
@@ -336,4 +365,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ by sports enthusiasts, for sports enthusiasts**
 
-*Transform your sports experience with real-time data, intelligent analytics, and engaging gameplay.*
+_Transform your sports experience with real-time data, intelligent analytics, and engaging gameplay._
