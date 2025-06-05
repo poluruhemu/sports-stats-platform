@@ -1,0 +1,25 @@
+{
+  "name": "sports-stats-platform",
+  "version": "1.0.0",
+  "description": "Multi-sport statistics platform with real-time data and card game",
+  "private": true,
+  "scripts": {
+    "dev": "docker-compose up -d postgres redis",
+    "dev:api": "cd backend/api-gateway && npm run dev",
+    "dev:dashboard": "cd frontend/web-dashboard && npm run dev",
+    "stop": "docker-compose down",
+    "logs": "docker-compose logs -f",
+    "clean": "docker-compose down -v --remove-orphans"
+  },
+  "keywords": [
+    "sports",
+    "statistics",
+    "cricket",
+    "next.js",
+    "node.js",
+    "real-time",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

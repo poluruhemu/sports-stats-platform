@@ -1,65 +1,18 @@
-# Dependencies
+# Dependencies - Don't commit these heavy folders
 node_modules/
-*/node_modules/
-__pycache__/
-*.pyc
-venv/
-env/
-.venv/
 
-# Environment files
+# Environment files - Keep secrets secret!
 .env
 .env.local
-.env.development
-.env.production
 .env.*.local
 
-# Next.js build files
+# Build outputs - Generated files, not source code
 .next/
-out/
-*.tsbuildinfo
-next-env.d.ts
-
-# Build outputs
 dist/
 build/
 *.log
-logs/
-coverage/
 
-# Database
-*.db
-*.sqlite
-database/backups/
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
+# IDE files - Personal preferences, not project files
+.vscode/settings.json
 .DS_Store
-Thumbs.db
-
-# Secrets and keys
-secrets/
-*.pem
-*.key
-*.crt
-config/secrets/
-
-# Cloud provider files
-.gcloud/
-.aws/
-terraform.tfstate*
-*.tfvars
-
-# Mobile build files
-flutter/build/
-android/app/build/
-ios/build/
-android/.gradle/
-
-# Temporary files
-*.tmp
-*.temp
-.cache/
+*.swp
